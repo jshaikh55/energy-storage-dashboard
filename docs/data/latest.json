@@ -1,31 +1,36 @@
 {
   "date": "2026-07-11",
-  "generated_at_utc": "2026-07-11T00:00:00Z",
   "categories": [
     {
       "name": "Market & Deployment News",
       "items": [
         {
-          "title": "Tesla deploys 13.5 GWh of storage in Q2 2026",
-          "summary": "Tesla's global energy storage deployments rose 53% quarter-over-quarter, its second-largest quarterly total on record. The company holds its Q2 earnings call on July 22.",
+          "title": "Tesla Deploys 13.5 GWh of Storage in Q2 2026",
+          "summary": "Tesla announced it deployed 13.5 GWh of energy storage products globally in Q2 2026, a sharp jump from the 8.8 GWh delivered in Q1 and up significantly year-over-year. The company set its Q2 earnings webcast for July 22, where investors are expected to press for details on its VPP partnership with Sunrun and Renew Home.",
           "source_name": "pv magazine USA",
           "source_url": "https://pv-magazine-usa.com/2026/07/02/tesla-announces-13-5-gwh-energy-storage-deployments-in-q2-sets-july-earnings-date/"
         },
         {
-          "title": "BNEF raises 2026 global storage forecast to 158GW/459GWh",
-          "summary": "BloombergNEF's H1 2026 outlook counted 112GW/307GWh added in 2025 and expects annual additions to nearly double over the next decade, reaching 308GW by 2036.",
-          "source_name": "Energy-Storage.News",
-          "source_url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/"
-        },
-        {
-          "title": "Alpiq to acquire 90% of UK developer Harmony Energy",
-          "summary": "The Swiss power firm's acquisition consolidates its position in the UK battery storage development and operations market.",
+          "title": "Alpiq to Acquire 90% Stake in Harmony Energy",
+          "summary": "Swiss power company Alpiq has agreed to acquire a 90% stake in UK-based battery storage developer-operator Harmony Energy, consolidating its position in the European BESS market.",
           "source_name": "Energy-Storage.News",
           "source_url": "https://www.energy-storage.news/"
         },
         {
-          "title": "China holds 76% of global BESS integrator market share",
-          "summary": "Chinese system integrators cemented their dominance of the global battery storage market in 2025, even as S&P Global expects Chinese installations to soften in 2026 following the removal of a solar-pairing mandate.",
+          "title": "Frontier Power USA Converts 920 MWh Texas BESS Portfolio",
+          "summary": "Frontier Power USA exercised its selection right to convert four battery storage projects from Stella Energy Solutions\u2014the Blanquilla, Aransas Pass, Nash and Wallis projects\u2014representing roughly 230 MW/920 MWh of capacity. The projects are expected to use Eos Energy's Z3 long-duration batteries, though closing depends on Eos completing its rights offering.",
+          "source_name": "GlobeNewswire",
+          "source_url": "https://www.globenewswire.com/news-release/2026/07/07/3323096/0/en/Frontier-Power-USA-Converts-920-MWh-Battery-Storage-Project-Portfolio-Under-Stella-Strategic-Framework.html"
+        },
+        {
+          "title": "BYD and Greenvolt to Build 2.4 GWh Poland Storage Site",
+          "summary": "BYD Energy Storage and Greenvolt Power will co-develop a 600 MW/2.4 GWh energy storage facility in Siedlce, Poland, with construction planned to begin in the third quarter of 2026 and operations targeted by the end of 2027.",
+          "source_name": "Battery-Tech Network",
+          "source_url": "https://battery-tech.net/batterytech-news-updates-2026-27/"
+        },
+        {
+          "title": "Chinese Integrators Hold 76% of Global BESS Market",
+          "summary": "New industry data shows Chinese system integrators cemented their dominance of the global battery energy storage market, capturing 76% of global market share in 2025, underscoring the country's continued lead in equipment supply even as installation growth slows domestically.",
           "source_name": "Energy-Storage.News",
           "source_url": "https://www.energy-storage.news/category/news/"
         }
@@ -35,26 +40,32 @@
       "name": "Technology Developments",
       "items": [
         {
-          "title": "Sodium-ion storage gains ground in the US and Europe",
-          "summary": "Peak Energy, ESS Tech, and Unigrid each announced advances in sodium-ion storage technology, positioning the chemistry as a lower-cost, lithium-free alternative for stationary storage.",
+          "title": "CATL Secures 60 GWh Sodium-Ion Supply Deal",
+          "summary": "CATL has confirmed sodium-ion cells will reach mass production in 2026 and has secured a 60 GWh sodium-ion supply contract, reportedly the largest single order for sodium cells globally. The company projects sodium-ion could eventually displace 30-40% of the battery market while matching LFP energy density at potentially lower cost.",
+          "source_name": "Autonocion",
+          "source_url": "https://www.autonocion.com/us/catl-solid-state-battery-two-chemistries/"
+        },
+        {
+          "title": "NUS Researchers Advance Safer Solid-State Sodium Battery",
+          "summary": "Researchers at the National University of Singapore developed a composite polymer electrolyte that improves sodium-ion transport and compatibility with sodium metal in all-solid-state cells, addressing safety limitations that have held back the technology. The team is now working to optimize the cells for stable operation near ambient temperatures around 45\u00b0C.",
+          "source_name": "Tech Xplore",
+          "source_url": "https://techxplore.com/news/2026-05-safer-solid-state-sodium-battery.html"
+        },
+        {
+          "title": "Peak Energy, ESS Tech, Unigrid Push Sodium-Ion Forward",
+          "summary": "Three companies\u2014Peak Energy, ESS Tech Inc, and Unigrid\u2014made fresh announcements this week advancing sodium-ion energy storage technology across the US and Europe, reflecting accelerating momentum behind the lithium alternative for grid-scale applications.",
           "source_name": "Energy-Storage.News",
           "source_url": "https://www.energy-storage.news/"
         },
         {
-          "title": "HyperStrong to launch sodium-ion BESS in China first",
-          "summary": "The system integrator plans to bring sodium-ion products to its home market before expanding internationally, per its technology president.",
+          "title": "Elestor Deploys Hydrogen-Iron Flow Battery in Netherlands",
+          "summary": "Dutch long-duration storage developer Elestor partnered with Windpark Zeewolde to deploy a 20MW/200-800MWh hydrogen-iron flow battery system at what is described as Europe's largest onshore wind farm, marking a significant demonstration of flow battery technology at scale.",
           "source_name": "Energy-Storage.News",
           "source_url": "https://www.energy-storage.news/category/news/"
         },
         {
-          "title": "Elestor deploys large hydrogen-iron flow battery in the Netherlands",
-          "summary": "A 20MW/200-800MWh hydrogen-iron flow battery system is being installed at Windpark Zeewolde, described as Europe's largest onshore wind farm, in partnership with Dutch LDES developer Elestor.",
-          "source_name": "Energy-Storage.News",
-          "source_url": "https://www.energy-storage.news/category/news/"
-        },
-        {
-          "title": "Eni and L-H Battery expand cell manufacturing capacity",
-          "summary": "Eni Storage Systems broke ground on an LFP-cell gigafactory in Italy, while L-H Battery Company began lithium-ion cell production at its Jeffersonville, Ohio plant this month.",
+          "title": "L-H Battery Starts Li-ion Cell Production in Ohio",
+          "summary": "L-H Battery Company began lithium-ion cell production this month at its Jeffersonville, Ohio plant, targeting both automotive and stationary power storage applications as domestic US cell manufacturing capacity continues to expand.",
           "source_name": "Energy-Storage.News",
           "source_url": "https://www.energy-storage.news/category/news/"
         }
@@ -64,30 +75,37 @@
       "name": "Regulatory & Policy",
       "items": [
         {
-          "title": "OBBBA reshapes US storage tax credit landscape",
-          "summary": "The One Big Beautiful Bill Act restructured IRA incentives; battery storage retained technology-neutral credits (45Y/48E) through 2032, though FEOC sourcing compliance and a July 2026 safe-harbor deadline require near-term developer attention.",
-          "source_name": "NextG Power",
-          "source_url": "https://nextgpower.com/energy-storage-policies-incentives-usa-europe-asia-compared-2026-guide/"
+          "title": "FERC Orders Six Grid Operators to Reform Large-Load Tariffs",
+          "summary": "FERC issued show cause orders under Section 206 to all six regional grid operators, directing them to justify or reform tariffs governing how data centers and other large energy users connect to the grid. Each operator has 60 days to justify current rules or propose changes covering interconnection speed, cost-shifting prevention, and co-location agreements.",
+          "source_name": "FERC",
+          "source_url": "https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration"
         },
         {
-          "title": "DOE pushes FERC to take over large-load interconnection rules",
-          "summary": "The Department of Energy asked FERC in late 2025 to assert jurisdiction over large-load interconnection standards, targeting an April 2026 rule, partly to unclog queues jammed by data-center demand that storage projects also depend on.",
-          "source_name": "How to Store Electricity",
-          "source_url": "https://howtostoreelectricity.com/bess-regulation-usa-2026/"
+          "title": "New Jersey Enacts Data Center Tariff and Grid Reform Bills",
+          "summary": "New Jersey Governor Mikie Sherrill signed three bills into law aimed at cutting transmission owners' return on equity, establishing dedicated data center tariffs, and requiring state approval for supplemental transmission projects. The data center tariff law requires utilities to incentivize large users to bring their own clean generation or energy storage and to offset capacity obligations through behind-the-meter storage and demand response.",
+          "source_name": "Utility Dive",
+          "source_url": "https://www.utilitydive.com/news/new-jersey-transmission-oversight-data-center-affordability-sherrill/824681/"
         },
         {
-          "title": "States move on new BESS fire-safety requirements",
-          "summary": "Following fires at battery storage facilities, state policymakers and regulators are developing new safety standards that could add near-term cost and permitting delays before settling into standard practice.",
-          "source_name": "Morgan Lewis",
-          "source_url": "https://www.morganlewis.com/pubs/2026/03/state-energy-storage-policy-trends-for-2026"
-        },
-        {
-          "title": "Vietnam adopts two-part BESS tariff structure",
-          "summary": "Circular 62/2025/TT-BCT made Vietnam the first major ASEAN economy to pay storage for both availability and delivery, a shift seen as a model for the wider region's regulatory frameworks.",
+          "title": "Vietnam Adopts Two-Part Tariff for Battery Storage",
+          "summary": "With the implementation of Circular No. 62/2025/TT-BCT in January 2026, Vietnam became the first major ASEAN economy to introduce a formal two-part tariff structure for battery energy storage systems, paying batteries for both capacity availability and energy delivery rather than energy alone.",
           "source_name": "Energy-Storage.News",
           "source_url": "https://www.energy-storage.news/trends-to-look-out-for-at-energy-storage-summit-asia-2026/"
+        },
+        {
+          "title": "Australia Adds First Nations Pilot to Storage Tenders",
+          "summary": "The Australian federal government has introduced a dedicated First Nations Set Aside pilot program into both Capacity Investment Scheme Tenders 9 and 10, aiming to broaden participation in the country's large-scale storage and renewables procurement rounds.",
+          "source_name": "Energy-Storage.News",
+          "source_url": "https://www.energy-storage.news/category/news/"
+        },
+        {
+          "title": "FERC Holds Technical Conference on Grid-Enhancing Tech",
+          "summary": "FERC held a supplemental technical conference on July 7-8, 2026 to discuss grid-enhancing technologies, load forecasting, and opportunities to boost market and planning efficiency through improved software, part of its broader push to modernize grid operations amid rising demand.",
+          "source_name": "Stoel Rives LLP",
+          "source_url": "https://www.stoel.com/insights/reports/energy-regulatory-updates/july-8-2026"
         }
       ]
     }
-  ]
+  ],
+  "generated_at_utc": "2026-07-11T18:59:38.013319Z"
 }
