@@ -1,0 +1,93 @@
+{
+  "date": "2026-07-11",
+  "generated_at_utc": "2026-07-11T00:00:00Z",
+  "categories": [
+    {
+      "name": "Market & Deployment News",
+      "items": [
+        {
+          "title": "Tesla deploys 13.5 GWh of storage in Q2 2026",
+          "summary": "Tesla's global energy storage deployments rose 53% quarter-over-quarter, its second-largest quarterly total on record. The company holds its Q2 earnings call on July 22.",
+          "source_name": "pv magazine USA",
+          "source_url": "https://pv-magazine-usa.com/2026/07/02/tesla-announces-13-5-gwh-energy-storage-deployments-in-q2-sets-july-earnings-date/"
+        },
+        {
+          "title": "BNEF raises 2026 global storage forecast to 158GW/459GWh",
+          "summary": "BloombergNEF's H1 2026 outlook counted 112GW/307GWh added in 2025 and expects annual additions to nearly double over the next decade, reaching 308GW by 2036.",
+          "source_name": "Energy-Storage.News",
+          "source_url": "https://www.energy-storage.news/bloombergnef-forecasts-158gw-of-global-energy-storage-deployments-in-2026/"
+        },
+        {
+          "title": "Alpiq to acquire 90% of UK developer Harmony Energy",
+          "summary": "The Swiss power firm's acquisition consolidates its position in the UK battery storage development and operations market.",
+          "source_name": "Energy-Storage.News",
+          "source_url": "https://www.energy-storage.news/"
+        },
+        {
+          "title": "China holds 76% of global BESS integrator market share",
+          "summary": "Chinese system integrators cemented their dominance of the global battery storage market in 2025, even as S&P Global expects Chinese installations to soften in 2026 following the removal of a solar-pairing mandate.",
+          "source_name": "Energy-Storage.News",
+          "source_url": "https://www.energy-storage.news/category/news/"
+        }
+      ]
+    },
+    {
+      "name": "Technology Developments",
+      "items": [
+        {
+          "title": "Sodium-ion storage gains ground in the US and Europe",
+          "summary": "Peak Energy, ESS Tech, and Unigrid each announced advances in sodium-ion storage technology, positioning the chemistry as a lower-cost, lithium-free alternative for stationary storage.",
+          "source_name": "Energy-Storage.News",
+          "source_url": "https://www.energy-storage.news/"
+        },
+        {
+          "title": "HyperStrong to launch sodium-ion BESS in China first",
+          "summary": "The system integrator plans to bring sodium-ion products to its home market before expanding internationally, per its technology president.",
+          "source_name": "Energy-Storage.News",
+          "source_url": "https://www.energy-storage.news/category/news/"
+        },
+        {
+          "title": "Elestor deploys large hydrogen-iron flow battery in the Netherlands",
+          "summary": "A 20MW/200-800MWh hydrogen-iron flow battery system is being installed at Windpark Zeewolde, described as Europe's largest onshore wind farm, in partnership with Dutch LDES developer Elestor.",
+          "source_name": "Energy-Storage.News",
+          "source_url": "https://www.energy-storage.news/category/news/"
+        },
+        {
+          "title": "Eni and L-H Battery expand cell manufacturing capacity",
+          "summary": "Eni Storage Systems broke ground on an LFP-cell gigafactory in Italy, while L-H Battery Company began lithium-ion cell production at its Jeffersonville, Ohio plant this month.",
+          "source_name": "Energy-Storage.News",
+          "source_url": "https://www.energy-storage.news/category/news/"
+        }
+      ]
+    },
+    {
+      "name": "Regulatory & Policy",
+      "items": [
+        {
+          "title": "OBBBA reshapes US storage tax credit landscape",
+          "summary": "The One Big Beautiful Bill Act restructured IRA incentives; battery storage retained technology-neutral credits (45Y/48E) through 2032, though FEOC sourcing compliance and a July 2026 safe-harbor deadline require near-term developer attention.",
+          "source_name": "NextG Power",
+          "source_url": "https://nextgpower.com/energy-storage-policies-incentives-usa-europe-asia-compared-2026-guide/"
+        },
+        {
+          "title": "DOE pushes FERC to take over large-load interconnection rules",
+          "summary": "The Department of Energy asked FERC in late 2025 to assert jurisdiction over large-load interconnection standards, targeting an April 2026 rule, partly to unclog queues jammed by data-center demand that storage projects also depend on.",
+          "source_name": "How to Store Electricity",
+          "source_url": "https://howtostoreelectricity.com/bess-regulation-usa-2026/"
+        },
+        {
+          "title": "States move on new BESS fire-safety requirements",
+          "summary": "Following fires at battery storage facilities, state policymakers and regulators are developing new safety standards that could add near-term cost and permitting delays before settling into standard practice.",
+          "source_name": "Morgan Lewis",
+          "source_url": "https://www.morganlewis.com/pubs/2026/03/state-energy-storage-policy-trends-for-2026"
+        },
+        {
+          "title": "Vietnam adopts two-part BESS tariff structure",
+          "summary": "Circular 62/2025/TT-BCT made Vietnam the first major ASEAN economy to pay storage for both availability and delivery, a shift seen as a model for the wider region's regulatory frameworks.",
+          "source_name": "Energy-Storage.News",
+          "source_url": "https://www.energy-storage.news/trends-to-look-out-for-at-energy-storage-summit-asia-2026/"
+        }
+      ]
+    }
+  ]
+}

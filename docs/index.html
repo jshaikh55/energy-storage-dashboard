@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Energy Storage Briefing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #0B0F14;
+    --panel: #121821;
+    --panel-border: #212B36;
+    --text: #E8EDF2;
+    --muted: #7C8A97;
+    --accent-market: #4C8BF5;
+    --accent-tech: #2DD4BF;
+    --accent-policy: #F5A623;
+    --radius: 10px;
+  }
+  * { box-sizing: border-box; }
+  html,body{
+    margin:0; padding:0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  a { color: inherit; }
+
+  .grid-texture{
+    position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    background-image:
+      linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    background-size: 42px 42px;
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 40%, transparent 100%);
+  }
+
+  header{
+    position: relative; z-index: 1;
+    max-width: 1080px; margin: 0 auto;
+    padding: 48px 24px 28px;
+    display: flex; justify-content: space-between; align-items: flex-end;
+    flex-wrap: wrap; gap: 16px;
+    border-bottom: 1px solid var(--panel-border);
+  }
+  .title-block h1{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: -0.01em;
+    margin: 0 0 6px;
+    display:flex; align-items:center; gap: 12px;
+  }
+  .pulse-dot{
+    width: 10px; height: 10px; border-radius: 50%;
+    background: var(--accent-tech);
+    box-shadow: 0 0 0 0 rgba(45,212,191,0.6);
+    animation: pulse 2.4s infinite;
+    flex-shrink: 0;
+  }
+  @keyframes pulse{
+    0%   { box-shadow: 0 0 0 0 rgba(45,212,191,0.55); }
+    70%  { box-shadow: 0 0 0 9px rgba(45,212,191,0); }
+    100% { box-shadow: 0 0 0 0 rgba(45,212,191,0); }
+  }
+  .title-block p{
+    margin:0; color: var(--muted); font-size: 14.5px;
+  }
+  .meta{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12.5px; color: var(--muted);
+    text-align: right;
+    display:flex; flex-direction:column; gap:8px; align-items:flex-end;
+  }
+  select{
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    color: var(--text);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12.5px;
+    padding: 6px 10px;
+    border-radius: 6px;
+  }
+
+  main{
+    position: relative; z-index: 1;
+    max-width: 1080px; margin: 0 auto;
+    padding: 32px 24px 80px;
+  }
+
+  #status{ color: var(--muted); font-family: 'IBM Plex Mono', monospace; font-size: 13px; }
+
+  .columns{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  @media (max-width: 860px){
+    .columns{ grid-template-columns: 1fr; }
+    header{ padding: 36px 18px 22px; }
+    main{ padding: 24px 18px 60px; }
+  }
+
+  .column{ display:flex; flex-direction:column; gap:14px; }
+
+  .col-label{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--muted);
+    display: flex; align-items:center; gap: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--panel-border);
+  }
+  .swatch{ width: 8px; height: 8px; border-radius: 2px; flex-shrink:0; }
+
+  .card{
+    background: var(--panel);
+    border: 1px solid var(--panel-border);
+    border-left: 3px solid var(--card-accent, var(--accent-market));
+    border-radius: var(--radius);
+    padding: 14px 16px;
+  }
+  .card h3{
+    margin: 0 0 6px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 15.5px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  .card p{
+    margin: 0 0 10px;
+    font-size: 13.5px;
+    line-height: 1.55;
+    color: #C7D0D8;
+  }
+  .card .src{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--muted);
+    padding-bottom: 1px;
+  }
+  .card .src:hover{ color: var(--text); border-color: var(--text); }
+
+  footer{
+    position: relative; z-index:1;
+    max-width: 1080px; margin: 0 auto;
+    padding: 0 24px 48px;
+    color: var(--muted);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+  }
+  footer a{ color: var(--muted); }
+</style>
+</head>
+<body>
+
+<div class="grid-texture"></div>
+
+<header>
+  <div class="title-block">
+    <h1><span class="pulse-dot"></span>Energy Storage Briefing</h1>
+    <p>Market, technology &amp; policy developments in grid-scale &amp; battery storage</p>
+  </div>
+  <div class="meta">
+    <div id="dateLabel">loading…</div>
+    <select id="historySelect"><option>loading history…</option></select>
+  </div>
+</header>
+
+<main>
+  <div id="status">Fetching latest briefing…</div>
+  <div class="columns" id="columns" style="display:none;"></div>
+</main>
+
+<footer>
+  Auto-generated daily via GitHub Actions + Claude API · <a href="https://github.com/" id="repoLink">source</a>
+</footer>
+
+<script>
+  const ACCENTS = {
+    "Market & Deployment News": "var(--accent-market)",
+    "Technology Developments": "var(--accent-tech)",
+    "Regulatory & Policy": "var(--accent-policy)"
+  };
+
+  const columnsEl = document.getElementById('columns');
+  const statusEl = document.getElementById('status');
+  const dateLabelEl = document.getElementById('dateLabel');
+  const historySelect = document.getElementById('historySelect');
+
+  function render(data){
+    dateLabelEl.textContent = "Briefing for " + data.date;
+    columnsEl.innerHTML = "";
+    (data.categories || []).forEach(cat => {
+      const accent = ACCENTS[cat.name] || "var(--accent-market)";
+      const col = document.createElement('div');
+      col.className = 'column';
+
+      const label = document.createElement('div');
+      label.className = 'col-label';
+      label.innerHTML = `<span class="swatch" style="background:${accent}"></span>${cat.name}`;
+      col.appendChild(label);
+
+      (cat.items || []).forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.style.setProperty('--card-accent', accent);
+        card.innerHTML = `
+          <h3>${item.title || ''}</h3>
+          <p>${item.summary || ''}</p>
+          ${item.source_url ? `<a class="src" href="${item.source_url}" target="_blank" rel="noopener">${item.source_name || 'source'}</a>` : ''}
+        `;
+        col.appendChild(card);
+      });
+
+      columnsEl.appendChild(col);
+    });
+    statusEl.style.display = 'none';
+    columnsEl.style.display = 'grid';
+  }
+
+  async function loadDate(dateStr){
+    statusEl.style.display = 'block';
+    statusEl.textContent = 'Loading ' + dateStr + '…';
+    try {
+      const res = await fetch(`data/history/${dateStr}.json`, {cache: "no-store"});
+      const data = await res.json();
+      render(data);
+    } catch (e) {
+      statusEl.textContent = 'Could not load that date.';
+    }
+  }
+
+  async function init(){
+    try {
+      const latestRes = await fetch('data/latest.json', {cache: "no-store"});
+      const latest = await latestRes.json();
+      render(latest);
+
+      const manifestRes = await fetch('data/manifest.json', {cache: "no-store"});
+      const manifest = await manifestRes.json();
+      historySelect.innerHTML = "";
+      (manifest.dates || []).forEach(d => {
+        const opt = document.createElement('option');
+        opt.value = d;
+        opt.textContent = d === latest.date ? d + " (latest)" : d;
+        historySelect.appendChild(opt);
+      });
+      historySelect.value = latest.date;
+      historySelect.addEventListener('change', () => loadDate(historySelect.value));
+    } catch (e) {
+      statusEl.textContent = "No briefing data yet — once the GitHub Action runs for the first time, it'll appear here.";
+      historySelect.innerHTML = "<option>no history yet</option>";
+    }
+  }
+
+  init();
+</script>
+
+</body>
+</html>
