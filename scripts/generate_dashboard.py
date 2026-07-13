@@ -13,6 +13,7 @@ import datetime
 from pathlib import Path
 
 from anthropic import Anthropic
+from json_repair import repair_json
 
 MODEL = "claude-sonnet-5"
 
@@ -36,7 +37,8 @@ For each category, find 3-5 distinct, genuinely recent items (prioritize \
 the last few days). For each item write:
 - "title": short headline (under 12 words)
 - "summary": 2-3 sentences IN YOUR OWN WORDS, no verbatim quotes from \
-sources. Do not use any line breaks inside string values.
+sources. Do not use any line breaks or double-quote characters inside \
+string values - use single quotes if you need to quote something.
 - "source_name": the publication name
 - "source_url": the direct URL
 
@@ -69,7 +71,12 @@ def extract_json(text: str) -> dict:
     end = text.rfind("}")
     if start == -1 or end == -1:
         raise ValueError(f"No JSON object found in model output:\n{text}")
-    return json.loads(text[start : end + 1], strict=False)
+    candidate = text[start : end + 1]
+    try:
+        return json.loads(candidate, strict=False)
+    except json.JSONDecodeError:
+        repaired = repair_json(candidate)
+        return json.loads(repaired, strict=False)
 
 
 def main():
@@ -108,8 +115,8 @@ def main():
     manifest["dates"] = sorted(set(manifest["dates"]), reverse=True)[:60]
     MANIFEST_PATH.write_text(json.dumps(manifest, indent=2))
 
-    print(f"Wrote dashboard data for {data['date']}")  
+    print(f"Wrote dashboard data for {data['date']}")
 
 
 if __name__ == "__main__":
-    main() 
+    main()
