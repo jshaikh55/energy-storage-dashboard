@@ -36,7 +36,7 @@ For each category, find 3-5 distinct, genuinely recent items (prioritize \
 the last few days). For each item write:
 - "title": short headline (under 12 words)
 - "summary": 2-3 sentences IN YOUR OWN WORDS, no verbatim quotes from \
-sources
+sources. Do not use any line breaks inside string values.
 - "source_name": the publication name
 - "source_url": the direct URL
 
@@ -65,12 +65,11 @@ def extract_json(text: str) -> dict:
         text = text.strip("`")
         if text.lower().startswith("json"):
             text = text[4:]
-    # Guard against any stray leading/trailing prose around the JSON blob
     start = text.find("{")
     end = text.rfind("}")
     if start == -1 or end == -1:
         raise ValueError(f"No JSON object found in model output:\n{text}")
-    return json.loads(text[start : end + 1])
+    return json.loads(text[start : end + 1], strict=False)
 
 
 def main():
@@ -95,12 +94,10 @@ def main():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     HISTORY_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Write today's snapshot + update "latest"
     history_path = HISTORY_DIR / f"{data['date']}.json"
     history_path.write_text(json.dumps(data, indent=2))
     LATEST_PATH.write_text(json.dumps(data, indent=2))
 
-    # Update manifest (list of available dates, newest first)
     if MANIFEST_PATH.exists():
         manifest = json.loads(MANIFEST_PATH.read_text())
     else:
@@ -108,11 +105,11 @@ def main():
 
     if data["date"] not in manifest["dates"]:
         manifest["dates"].insert(0, data["date"])
-    manifest["dates"] = sorted(set(manifest["dates"]), reverse=True)[:60]  # keep ~2 months
+    manifest["dates"] = sorted(set(manifest["dates"]), reverse=True)[:60]
     MANIFEST_PATH.write_text(json.dumps(manifest, indent=2))
 
-    print(f"Wrote dashboard data for {data['date']}")
+    print(f"Wrote dashboard data for {data['date']}")  
 
 
 if __name__ == "__main__":
-    main()
+    main() 
