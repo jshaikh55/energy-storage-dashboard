@@ -5,34 +5,34 @@
       "name": "Market & Deployment News",
       "items": [
         {
-          "title": "Alpiq to Acquire 90% Stake in Harmony Energy",
-          "summary": "Swiss power firm Alpiq is buying a 90% stake in UK-based battery storage developer-operator Harmony Energy, expanding its presence in the fast-growing UK BESS market. The deal reflects continued consolidation among European storage developers as larger utilities seek to build out flexible generation portfolios.",
+          "title": "Alpiq Buys 90% of UK BESS Developer Harmony Energy",
+          "summary": "Swiss power firm Alpiq is acquiring a 90% stake in pan-European battery storage developer Harmony Energy, adding roughly 400MW of under-construction assets and a multi-gigawatt project pipeline across the UK, Germany, France and Poland. Harmony will keep operating under its own brand, with co-founder Peter Kavanagh staying on as CEO with a 10% stake.",
           "source_name": "Energy-Storage.News",
-          "source_url": "https://www.energy-storage.news/"
+          "source_url": "https://www.energy-storage.news/alpiq-acquires-harmony-energy/"
         },
         {
-          "title": "Tesla Deploys Record 13.5 GWh of Storage in Q2",
-          "summary": "Tesla announced it deployed 13.5 GWh of energy storage products globally in the second quarter of 2026, marking a 53% jump from Q1 and pushing cumulative deployments past 132 GWh since 2016. The company set July 22 as the date for its Q2 earnings call, where investors are expected to focus on the storage business alongside a new VPP partnership with Sunrun and Renew Home.",
-          "source_name": "pv magazine USA / Tesla Investor Relations",
-          "source_url": "https://pv-magazine-usa.com/2026/07/02/tesla-announces-13-5-gwh-energy-storage-deployments-in-q2-sets-july-earnings-date/"
+          "title": "Frontier Power USA Converts 920MWh Texas BESS Portfolio",
+          "summary": "Frontier Power USA exercised its selection right to bring four Texas battery projects developed by Stella Energy Solutions - Blanquilla, Aransas Pass, Nash and Wallis - onto its platform, representing roughly 230MW/920MWh of capacity. The projects are expected to use Eos Energy Enterprises' Z3 long-duration batteries, with closing contingent on Eos completing its rights offering.",
+          "source_name": "GlobeNewswire",
+          "source_url": "https://www.globenewswire.com/news-release/2026/07/07/3323096/0/en/Frontier-Power-USA-Converts-920-MWh-Battery-Storage-Project-Portfolio-Under-Stella-Strategic-Framework.html"
         },
         {
-          "title": "Giga Storage Closes Financing for 2.8 GWh Belgian BESS",
-          "summary": "Giga Storage secured financing for its 2.8 GWh Green Turtle battery storage project in Belgium, with construction slated to begin in September following the financial close on July 9. The project is one of the larger grid-scale batteries planned for the Belgian market.",
-          "source_name": "ESS News",
-          "source_url": "https://www.ess-news.com/"
-        },
-        {
-          "title": "Chint Solar Sells German BESS Portfolio to Flower Infrastructure",
-          "summary": "Chint Solar Europe signed a deal transferring seven ready-to-build battery storage projects in Germany to Flower Infrastructure Technologies AB. The transaction adds to a wave of BESS portfolio trading activity across Europe this month.",
-          "source_name": "Energy Global",
-          "source_url": "https://www.energyglobal.com/energy-storage/09072026/"
-        },
-        {
-          "title": "Victoria and Energy Dome Plan State's First LDES Facility",
-          "summary": "Victoria's State Electricity Commission and Italian clean-tech firm Energy Dome have announced plans to build the state's first long-duration energy storage facility using CO2 battery technology. The project signals growing interest in non-lithium long-duration technologies for grid balancing in Australia.",
+          "title": "Elestor, Windpark Zeewolde Deploy Hydrogen-Iron Flow Battery",
+          "summary": "Dutch long-duration storage developer Elestor has partnered with Windpark Zeewolde to install a 20MW system with 200-800MWh of hydrogen-iron flow battery storage at what is described as Europe's largest onshore wind farm. The project pairs long-duration storage with one of the continent's biggest wind installations to boost grid flexibility.",
           "source_name": "Energy-Storage.News",
-          "source_url": "https://www.energy-storage.news/"
+          "source_url": "https://www.energy-storage.news/category/news/"
+        },
+        {
+          "title": "Tesla Deploys Record 13.5 GWh of Energy Storage in Q2",
+          "summary": "Tesla announced it deployed 13.5 GWh of energy storage products globally in Q2 2026, up 53% from the prior quarter and 40% year-over-year, marking its second-largest quarterly total ever. The company will report full financial results on July 22, with investors watching for updates on its VPP partnership with Sunrun and Renew Home.",
+          "source_name": "Tesla Investor Relations",
+          "source_url": "https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments"
+        },
+        {
+          "title": "BYD-Greenvolt and Envision Advance Gigawatt-Scale European BESS",
+          "summary": "BYD Energy Storage and Greenvolt Power will co-develop a 600MW/2.4GWh storage facility in Siedlce, Poland, with construction planned to start in the third quarter of 2026 and operation targeted by the end of 2027. Separately, Envision Energy and Elements Green will deploy a 400MW/1,600MWh four-hour battery system in northern Germany using Envision's Gen 8 platform.",
+          "source_name": "Battery-Tech Network",
+          "source_url": "https://battery-tech.net/batterytech-news-updates-2026-27/"
         }
       ]
     },
@@ -40,32 +40,32 @@
       "name": "Technology Developments",
       "items": [
         {
-          "title": "Scientists Crack Solid-State Battery Dendrite Mystery",
-          "summary": "Researchers published findings explaining how soft lithium dendrites crack the hard ceramic electrolyte inside solid-state batteries, a key mechanism behind short circuits that have hampered commercialization. The discovery, published in Nature, could help engineers design safer, longer-lasting cells for EVs and grid storage.",
-          "source_name": "ScienceDaily / Max-Planck-Gesellschaft",
-          "source_url": "https://www.sciencedaily.com/releases/2026/07/260710003533.htm"
+          "title": "UChicago Lab Advances Sodium-Based Solid-State Battery Design",
+          "summary": "Researchers from the University of Chicago Pritzker School of Molecular Engineering, led by professor Y. Shirley Meng, published new research in Joule introducing an approach to all-solid-state sodium-ion batteries that tackles longstanding limitations in ion transport, stability and temperature performance. The team's work is seen as raising the performance benchmark for sodium-based solid-state cells as a lithium alternative for large-scale energy storage.",
+          "source_name": "MSE Supplies",
+          "source_url": "https://www.msesupplies.com/blogs/news/a-breakthrough-in-sodium-based-solid-state-batteries-signals-a-turning-point-for-energy-storage"
         },
         {
-          "title": "China Publishes First Official Solid-State Battery Standard",
-          "summary": "China officially published its GB/T Solid-State Batteries for EVs terminology and classification standard in July 2026, setting a strict threshold requiring less than 0.5% weight loss to qualify as truly 'all-solid-state.' The standard also bans marketing terms like 'semi-solid' or 'quasi-solid,' aiming to end definitional confusion as manufacturers race toward commercialization.",
-          "source_name": "Shanghai Metals Market",
-          "source_url": "https://news.metal.com/newscontent/103984967-smm-solid-state-battery-h1-2026-review-from-proof-of-concept-to-pre-production-sprint"
+          "title": "New Solid Electrolyte Boosts Safety of Sodium-Ion Batteries",
+          "summary": "A study published in Advanced Functional Materials details a composite polymer electrolyte with a functional 2D material that improves sodium-ion transport and compatibility with sodium metal in all-solid-state batteries. The advance targets a key safety obstacle that has held back sodium-based solid-state cells, with potential to lower grid storage costs and reduce reliance on lithium.",
+          "source_name": "Tech Xplore",
+          "source_url": "https://techxplore.com/news/2026-05-safer-solid-state-sodium-battery.html"
         },
         {
-          "title": "HyperStrong to Debut Sodium-Ion BESS First in China",
-          "summary": "System integrator HyperStrong plans to launch its sodium-ion battery energy storage system first in its home Chinese market before expanding to international markets, according to its technology president. The move reflects a broader industry shift as manufacturers like CATL scale sodium-ion production for stationary storage applications.",
+          "title": "Peak Energy to Build First US Grid-Scale Sodium-Ion Factory",
+          "summary": "Sodium-ion battery startup Peak Energy says its $71 million California factory will be the first US facility dedicated to grid-scale sodium-ion energy storage systems. Shipments from the plant are expected to begin in the first quarter of 2027.",
+          "source_name": "ESS News",
+          "source_url": "https://www.ess-news.com/"
+        },
+        {
+          "title": "L-H Battery Starts Lithium-Ion Cell Output at Ohio Plant",
+          "summary": "L-H Battery Company began lithium-ion cell production this month at its Jeffersonville, Ohio plant, targeting both automotive and stationary storage applications. The launch adds new domestic cell manufacturing capacity as US developers seek to diversify supply away from imported cells.",
           "source_name": "Energy-Storage.News",
           "source_url": "https://www.energy-storage.news/category/news/"
         },
         {
-          "title": "Elestor Deploys Hydrogen-Iron Flow Battery at Major Wind Farm",
-          "summary": "Dutch long-duration storage developer Elestor partnered with Windpark Zeewolde to install a 20MW hydrogen-iron flow battery system with 200-800MWh capacity at what is described as Europe's largest onshore wind farm. The project demonstrates growing commercial traction for flow battery chemistries in long-duration applications.",
-          "source_name": "Energy-Storage.News",
-          "source_url": "https://www.energy-storage.news/category/news/"
-        },
-        {
-          "title": "L-H Battery Starts Li-ion Cell Production in Ohio",
-          "summary": "L-H Battery Company began lithium-ion cell production this month at its Jeffersonville, Ohio plant, targeting both automotive and stationary storage applications. The launch adds to a growing base of domestic US battery cell manufacturing capacity amid tariff pressure on Chinese imports.",
+          "title": "HyperStrong to Launch Sodium-Ion BESS Domestically Before Export",
+          "summary": "System integrator HyperStrong plans to deploy sodium-ion battery energy storage systems first in its home market of China before bringing the product to international markets, according to its president of technology. The strategy reflects a broader push by Chinese integrators to commercialize sodium-ion chemistry for grid-scale applications ahead of global rollout.",
           "source_name": "Energy-Storage.News",
           "source_url": "https://www.energy-storage.news/category/news/"
         }
@@ -75,31 +75,37 @@
       "name": "Regulatory & Policy",
       "items": [
         {
-          "title": "FERC Orders Grid Operators to Reform Large-Load Tariffs",
-          "summary": "FERC issued a major order on June 18 directing all six US regional grid operators to justify or reform their tariffs for connecting large loads over 20MW, such as AI data centers and advanced manufacturing facilities. The action is expected to reshape the economics of battery storage co-located with data centers by influencing transmission cost allocation and grid services revenue.",
-          "source_name": "Benchmark Source",
-          "source_url": "https://source.benchmarkminerals.com/article/ferc-s-large-load-order-puts-battery-flexibility-at-the-centre-of-us-grid-policy"
+          "title": "FERC Presses Grid Operators to Reform Large-Load Tariffs",
+          "summary": "FERC issued tailored show-cause orders to all six regional grid operators, directing them to justify or reform tariffs governing how data centers and other large energy users connect to the grid, with 60 days to respond. The action, tied to five categories of reform including co-location and behind-the-meter generation rules, has major implications for how storage and generation interconnect with large new loads.",
+          "source_name": "Stoel Rives LLP",
+          "source_url": "https://www.stoel.com/insights/reports/energy-regulatory-updates/july-8-2026"
         },
         {
-          "title": "Section 122 Tariff on Batteries Set to Expire July 24",
-          "summary": "The US 10% Section 122 import surcharge on battery components is scheduled to expire around July 24, 2026, with the administration reportedly planning to replace it with new Section 301 tariffs for China, Thailand, Vietnam, and India. The shift could further widen the price gap between Chinese and non-Chinese battery suppliers as new trade measures take shape.",
-          "source_name": "Dimerco",
-          "source_url": "https://dimerco.com/us-tariff-update-2026/"
+          "title": "New Jersey Governor Signs Bills Reshaping Transmission Rules",
+          "summary": "New Jersey's governor signed legislation aimed at cutting transmission owners' return on equity, establishing data center tariffs, and requiring state approval for so-called 'supplementary' transmission projects. The measures are part of a broader state effort to control rising grid costs tied to large load growth.",
+          "source_name": "Utility Dive",
+          "source_url": "https://www.utilitydive.com/topic/storage/"
         },
         {
-          "title": "Australia Adds First Nations Pilot to Storage Tender Program",
-          "summary": "The Australian government introduced a dedicated First Nations Set Aside pilot program into both Capacity Investment Scheme Tenders 9 and 10, aiming to boost Indigenous participation in battery storage and renewable energy procurement. The move adds a new equity-focused dimension to Australia's flagship storage capacity auction mechanism.",
+          "title": "US Storage Developers Race July 4 Safe-Harbor Deadline",
+          "summary": "Under the One Big Beautiful Bill Act, storage projects had to demonstrate physical construction progress by July 4, 2026 to qualify for existing investment tax credit rules and avoid stricter new Foreign Entity of Concern (FEOC) restrictions. Developers who missed the deadline are now exploring alternative paths to preserve tax credit eligibility for their projects.",
+          "source_name": "NextG Power",
+          "source_url": "https://nextgpower.com/energy-storage-policies-incentives-usa-europe-asia-compared-2026-guide/"
+        },
+        {
+          "title": "Brazil Publishes Framework for First Battery Storage Auction",
+          "summary": "Brazil's government published rules for its first dedicated battery storage auction, setting up two procurement rounds with 15-year contracts and technical requirements for grid-scale systems. The framework comes as curtailment of renewable generation rises, creating pressure for new flexibility resources.",
+          "source_name": "ESS News",
+          "source_url": "https://www.ess-news.com/"
+        },
+        {
+          "title": "Australia Adds First Nations Set-Aside to Capacity Scheme",
+          "summary": "The Australian government introduced a dedicated First Nations Set Aside pilot within both Capacity Investment Scheme Tenders 9 and 10, aiming to boost Indigenous participation in the national storage and renewables buildout. The pilot is part of the broader scheme that underpins Australia's large-scale battery deployment targets.",
           "source_name": "Energy-Storage.News",
           "source_url": "https://www.energy-storage.news/category/news/"
-        },
-        {
-          "title": "Illinois Grid Act Mandates 3GW of Utility-Scale Storage",
-          "summary": "Illinois enacted the Clean and Reliable Grid Affordability Act in January 2026, directing utilities to install 3 GW of utility-scale energy storage by 2030 and to develop programs compensating customers for demand-flexibility resources like batteries and smart thermostats. The law also requires large electric utilities to implement time-of-use pricing to encourage load shifting.",
-          "source_name": "Morgan Lewis",
-          "source_url": "https://www.morganlewis.com/pubs/2026/03/state-energy-storage-policy-trends-for-2026"
         }
       ]
     }
   ],
-  "generated_at_utc": "2026-07-13T17:50:34.431456Z"
+  "generated_at_utc": "2026-07-13T18:20:51.730528Z"
 }
